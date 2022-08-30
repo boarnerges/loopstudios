@@ -141,6 +141,7 @@ a.nav--links{
 
 .interactive p{
     font-size: 2rem;
+    line-height: 2;
 }
 
 .grid{
@@ -189,6 +190,7 @@ a.btn{
     text-decoration: none;
     text-align: center;
     font-size: 1.5rem;
+    color: black;
 }
 
 .footer-cont{
