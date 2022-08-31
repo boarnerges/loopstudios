@@ -264,6 +264,11 @@ li.fot_nav-link{
 
 @media (min-width: 500px){
 
+            
+    html {
+        font-size: 5px;  
+    }
+
     body{
         min-width: 144rem;
     }
@@ -279,11 +284,6 @@ li.fot_nav-link{
 
     .desktop-img{
         display: block;
-    }
-
-           
-    html {
-        font-size: 5px;  
     }
 
     .header{
