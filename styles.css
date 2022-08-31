@@ -263,6 +263,16 @@ li.fot_nav-link{
 }
 
 @media (min-width: 500px){
+    .header{
+        background-image: url("./images/desktop/image-hero.jpg");
+        background-size: cover;
+        background-position: ;
+        height: 60vh;
+    }
+
+}
+
+    @media (min-width: 800px){
 
             
     html {
