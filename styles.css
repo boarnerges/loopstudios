@@ -262,7 +262,7 @@ li.fot_nav-link{
     text-align: center;
 }
 
-@media (min-width: 144rem){
+@media (min-width: 500px){
 
     body{
         min-width: 144rem;
