@@ -266,11 +266,11 @@ li.fot_nav-link{
 
             
     html {
-        font-size: 8px;  
+        font-size: 6px;  
     }
 
     body{
-        min-width: 144rem;
+        min-width: 1440px;
     }
 
     .container{
@@ -290,7 +290,7 @@ li.fot_nav-link{
         background-image: url("./images/desktop/image-hero.jpg");
         background-size: cover;
         background-position: ;
-        height: 100vh;
+        height: 50vh;
     }
 
     .hamburger{
