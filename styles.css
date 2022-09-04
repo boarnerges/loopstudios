@@ -456,14 +456,9 @@ li.fot_nav-link{
     flex-direction: row
     }
 
-    .fot__logo{
-        padding: 4rem 0;
-        height: 5rem;
-    }
-
     ._fot{
-        /* width: 80%; */
-        margin: 0rem auto;
+    
+        margin: 0 auto;
         display:flex;
         justify-content: space-between;
     }
