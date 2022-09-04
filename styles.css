@@ -349,7 +349,7 @@ li.fot_nav-link{
         position: static;
         text-align: left;
         border: none;
-        transform: translateY(53%);
+        transform: translateY(10vh);
     }
 
     .hero-title h1{
