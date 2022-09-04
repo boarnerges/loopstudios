@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 
 :root{
     --White: hsl(0, 0%, 100%);
@@ -6,15 +7,6 @@
     --Very-Dark-Gray: hsl(0, 0%, 41%);
 }
 
-- Font size: 15px
-
-### Fonts
-
-- Family: [Alata](https://fonts.google.com/specimen/Alata)
-- Weight: 400
-
-- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
-- Weight: 300
 
 
 *,
@@ -28,6 +20,7 @@ html{
 }
 
 body{
+    font-family:'Josefin Sans', sans-serif; ;
     margin: 0;
     padding: 0; 
 }
@@ -36,13 +29,18 @@ img {
     max-width: 100%;
   }
 
-.desktop-img{
-    display: none;
+h1,
+h2,
+h3,
+h4{
+    font-family:'Alata', sans-serif;
 }
+
+
 
 .container{
     max-width: 100%;
-    width: 375px;
+    width: 1440px;
     margin: 0 auto; 
 }
 
@@ -122,13 +120,28 @@ a.nav--links{
 .hero-title h1{
     color: white;
     font-size: 3.5rem;
-    font-weight: 100;
+    font-weight: 400;
     margin: 0;
-    letter-spacing: .5rem;
 }
 
 .section{
     margin: 10rem auto;
+}
+
+.section_img {
+    margin: 0 ;
+    width: 100%;
+}
+
+.mobile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.desktop-img {
+    display: none;
 }
 
 .interactive{
@@ -137,6 +150,7 @@ a.nav--links{
 
 .interactive h2{
     font-size: 4rem;
+    font-weight: 100;
 }
 
 .interactive p{
@@ -152,6 +166,7 @@ a.nav--links{
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
+    font-weight: 100;
 }
 
 .grid-item{
@@ -176,6 +191,7 @@ a.nav--links{
 
 .title__text{
     opacity: 0.8;
+    font-weight: 100;
 }
 
 .btn{
@@ -262,7 +278,7 @@ li.fot_nav-link{
 }
 
 
-    @media (min-width: 800px){
+    @media (min-width: 1000px){
     
     html{
         font-size: 8px;
@@ -359,11 +375,11 @@ li.fot_nav-link{
 
     .interactive{
         text-align: left;
-        width: 35%;
+        width: 45%;
         position: absolute;
         padding: 15rem 0 0 15rem;
         bottom: 0;
-        transform: translateX(125%);
+        transform: translateX(122%);
         background: white;
         color: black;   
     }
