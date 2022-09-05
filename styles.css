@@ -358,6 +358,7 @@ li.fot_nav-link{
         width: 60%;
         border: 0.3rem solid white;
         padding: 2.5rem 5rem;
+        line-height:1;
     }
 
     .section{
