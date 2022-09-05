@@ -481,13 +481,18 @@ li.fot_nav-link{
         justify-content: space-between;
     }
 
+    .link{
+        width: 40%;
+    }
+
     .fot_nav-link{
         display: flex;
+       
     }
 
     .fot_nav-links {
-       margin-right: 6rem;
-       font-size: 3rem;
+       margin-right: 3rem;
+       font-size: 2rem;
     }
 
     a.social-item{
@@ -513,7 +518,7 @@ li.fot_nav-link{
     }
 
     .fot__para{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     
