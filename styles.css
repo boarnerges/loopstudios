@@ -260,6 +260,7 @@ li.fot_nav-link{
     justify-content: space-around;
     margin: 50px auto;
     padding: 0;
+    width: 30%;
 }
 
 .social-item{
