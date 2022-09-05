@@ -72,6 +72,7 @@ h4{
 
 .header__Primary--nav{
     width: 100%;
+    
 }
 
 .header__logo{
@@ -101,6 +102,7 @@ h4{
     padding: 0;
     line-height: 5rem;
     display: none;
+    
 }
 
 a.nav--links{
@@ -280,7 +282,7 @@ li.fot_nav-link{
 }
 
 
-    @media (min-width: 1000px){
+    @media (min-width: 950px){
     
     html{
         font-size: 8px;
