@@ -281,17 +281,17 @@ li.fot_nav-link{
     text-align: center;
 }
 
+@media (min-width: 768px){
 
-    @media (min-width: 700px){
-    
+    body{
+        background: red;
+    }
+
     html{
         font-size: 8px;
     }
 
-    body{
-        
-    }
-
+    
     .container{
         width: 1440px;
         max-width: 100%;
@@ -324,6 +324,7 @@ li.fot_nav-link{
         top: 0rem;
         padding: 10rem 0;
         margin:0;
+        width: 100%;
     }
 
     .navlink{
@@ -347,12 +348,9 @@ li.fot_nav-link{
         margin: 0 auto;
     }
 
-    
-    
-
     a.nav--links{
-        margin-left: 5rem;
-        font-size: 2.5rem;
+        margin-left: 3.5rem;
+        font-size: 2rem;
     }
 
     .hero-title{
@@ -361,11 +359,12 @@ li.fot_nav-link{
         border: none;
         transform: translateY(10vh);
         margin: 0;
+        padding: 0;
         
     }
 
     .hero-title h1{
-        font-size: 10rem;
+        font-size: 7.5rem;
         width: 75%;
         border: 0.3rem solid white;
         padding: 2.5rem 5rem;
@@ -390,7 +389,7 @@ li.fot_nav-link{
         text-align: left;
         width: 45%;
         position: absolute;
-        padding: 15rem 0 0 15rem;
+        padding: 5rem 0 0 5rem;
         bottom: 0;
         transform: translateX(122%);
         background: white;
@@ -399,7 +398,7 @@ li.fot_nav-link{
 
     
     .interactive h2{
-        font-size: 5rem;
+        font-size: 3.5rem;
         text-transform: uppercase;
         margin: 0;
     }
@@ -416,7 +415,7 @@ li.fot_nav-link{
 
     .grid h3{
         text-align: left;
-        font-size: 5rem;
+        font-size: 3rem;
 
     }
 
@@ -438,22 +437,22 @@ li.fot_nav-link{
         width: 10%;
         position: absolute;
         top: 0;
-        padding: 1.5rem 4rem;
-        right: 10rem;
+        padding: 1.5rem 1rem;
+        right: 6rem;
     }
 
     a.btn{
         text-decoration: none;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: black;
     }
 
     .title{
-        font-size: 4rem;
+        font-size: 2rem;
         color: white;
-        width: 45%;
-        margin-left: 7rem;
+        width: 50%;
+        margin-left: 3.5rem;
         top: 72%;
     }
 
@@ -491,8 +490,8 @@ li.fot_nav-link{
     }
 
     .fot_nav-links {
-       margin-right: 3rem;
-       font-size: 2rem;
+       margin-right: 2rem;
+       font-size: 1.5rem;
     }
 
     a.social-item{
@@ -510,7 +509,8 @@ li.fot_nav-link{
         margin: 0;
         padding: 4rem 0;
         justify-content: space-between;
-        width: 50%;
+        width: 60%;
+       
     }
 
     .social-item li{
@@ -518,9 +518,97 @@ li.fot_nav-link{
     }
 
     .fot__para{
-        font-size: 2rem;
+        font-size: 1.5rem;
+        padding-buttom: 10px;
     }
     
+
+
+}
+
+
+    @media (min-width: 1024px){
+    
+        body{
+            background: green;
+        }
+
+        
+        a.nav--links{
+            margin-left: 5rem;
+            font-size: 2.5rem;
+        }
+
+
+        .hero-title h1{
+            font-size: 10rem;
+            width: 75%;
+            border: 0.3rem solid white;
+            padding: 2.5rem 5rem;
+            line-height:1;
+        }
+
+        .interactive{
+            text-align: left;
+            width: 45%;
+            position: absolute;
+            padding: 15rem 0 0 15rem;
+            bottom: 0;
+            transform: translateX(122%);
+            background: white;
+            color: black;   
+        }
+    
+        
+        .interactive h2{
+            font-size: 4.7rem;
+            text-transform: uppercase;
+            margin: 0;
+        }
+    
+        .interactive p{
+            font-size: 2rem;
+            line-height: 1.5;
+        }
+
+        .grid h3{
+            text-align: left;
+            font-size: 4rem;
+    
+        }
+
+        .btn{
+            width: 10%;
+            position: absolute;
+            top: 0;
+            padding: 1.5rem 2rem;
+            right: 10rem;
+        }
+    
+        a.btn{
+            text-decoration: none;
+            text-align: center;
+            font-size: 2rem;
+            color: black;
+        }
+
+        .title{
+            font-size: 2.6rem;
+            color: white;
+            width: 45%;
+            margin-left: 7rem;
+            top: 72%;
+        }
+
+        .fot_nav-links {
+            margin-right: 3rem;
+            font-size: 2rem;
+         }
+
+         .fot__para{
+            font-size: 2rem;
+            padding-buttom: 10px;
+        }
     
 
 }
