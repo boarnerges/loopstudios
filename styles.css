@@ -323,7 +323,7 @@ li.fot_nav-link{
         align-items: baseline;
         top: 0rem;
         padding: 10rem 0;
-        width: 100%;
+        margin:0;
     }
 
     .navlink{
@@ -342,6 +342,12 @@ li.fot_nav-link{
         display: flex;
     }
 
+    .cont{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
     
 
     a.nav--links{
@@ -354,6 +360,8 @@ li.fot_nav-link{
         text-align: left;
         border: none;
         transform: translateY(10vh);
+        margin: 0;
+        
     }
 
     .hero-title h1{
@@ -431,7 +439,7 @@ li.fot_nav-link{
         position: absolute;
         top: 0;
         padding: 1.5rem 4rem;
-        right: 0;
+        right: 10rem;
     }
 
     a.btn{
