@@ -283,9 +283,7 @@ li.fot_nav-link{
 
 @media (min-width: 768px){
 
-    body{
-        background: red;
-    }
+    
 
     html{
         font-size: 8px;
@@ -529,10 +527,6 @@ li.fot_nav-link{
 
     @media (min-width: 1024px){
     
-        body{
-            background: green;
-        }
-
         
         a.nav--links{
             margin-left: 5rem;
