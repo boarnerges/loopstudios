@@ -118,6 +118,7 @@ a.nav--links{
     padding: 2rem;
     margin: 0 auto;
     transform: translateY(135%);
+    font-weight: 300;
 }
 
 .hero-title h1{
@@ -159,6 +160,7 @@ a.nav--links{
 .interactive p{
     font-size: 2rem;
     line-height: 2;
+    color: hsl(0, 0%, 41%);
 }
 
 .grid{
